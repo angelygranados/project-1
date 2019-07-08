@@ -238,10 +238,11 @@ figure{
 .footer a{
 	color: white;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
 	.hero{
 		height: auto;
 		position: relative;
+		padding: 2em;
 	}
 	.hero-image{
 		position: absolute;
@@ -251,6 +252,7 @@ figure{
 		top: 0;
 		bottom: 0;
 		width: 100%;
+		overflow: hidden;
 	}
 	h1{
 		z-index: 2;
@@ -262,6 +264,29 @@ figure{
 	.contact {
 		padding: 0 0 1em 0;
 	}
+	.html-video{
+		width: 100%;
+		height: auto;
+	}
+	.youtube-video {
+		/* width: 100%; */
+		/* height: auto; */
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	  }
+	  
+	  .flexible-video {
+		width: 100%;
+		height: 0;
+		padding-top: 56.25%;
+		background: blue;
+		position: relative;
+	  }
 }
 @media screen and (max-width: 767px){
 	.header{
@@ -315,6 +340,12 @@ figure{
 	}
 }
 @media screen and (max-width: 480px){
+	.hero-image{
+		overflow: hidden;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
 	.project-details{
 		width: auto;
 		font-size: 12px;
@@ -346,7 +377,14 @@ figure{
 		background-size: 100%;
 	}
 }
-@media screen and (max-width: 320px)
+@media screen and (max-width: 320px){
+	.hero{
+		padding: 2em 1em;
+	}
+	h1 {
+		font-size: 1em;
+	}
+}
 gris claro 626262
 gris background 1b2127
 gris oscuro 1d252c
