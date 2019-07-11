@@ -4,7 +4,7 @@
 	src:  url('fonts/icomoon.eot?bqb2fe#iefix') format('embedded-opentype'),
 	  url('fonts/icomoon.ttf?bqb2fe') format('truetype'),
 	  url('fonts/icomoon.woff?bqb2fe') format('woff'),
-	  url('chfonts/icomoon.svg?bqb2fe#icomoon') format('svg');
+	  url('fonts/icomoon.svg?bqb2fe#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
   }
@@ -269,6 +269,15 @@ figure{
 }
 .footer a{
 	color: white;
+}
+.burger-button{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgb(187, 24, 24);
+	display: block;
+	line-height: 40px;
+	text-align: center;
 }
 @media screen and (max-width: 1023px){
 	.hero{
