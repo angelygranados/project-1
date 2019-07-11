@@ -139,7 +139,7 @@ h2{
 }
 .hero{
 	height: 300px;
-	background-color: #1b2127;
+	background-color: #1D252C;
 	/*background-image: url('hero.jpg');
 	background-size: 500px 300px;
 	background-repeat: no-repeat;
@@ -154,7 +154,7 @@ h2{
 	
 }
 .header{
-	background-color: #1b2127;
+	background-color: #1D252C;
 	color: white;
 	display: flex;
 	align-items: center;
@@ -198,8 +198,6 @@ figure{
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
-}
-.social{
 }
 .social-link{
 	display: inline-block;
@@ -274,10 +272,15 @@ figure{
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background-color: rgb(187, 24, 24);
-	display: block;
+	background-color: rgba(0, 0, 0, .8);
+	display: none;
 	line-height: 40px;
 	text-align: center;
+	position: fixed;
+	z-index: 4;
+	left: 5px;
+	top: 5px;
+	color: white;
 }
 @media screen and (max-width: 1023px){
 	.hero{
@@ -330,6 +333,9 @@ figure{
 	  }
 }
 @media screen and (max-width: 767px){
+	.burger-button{
+		display: block;
+	}
 	.header{
 		display: block;
 		height: auto;
@@ -342,7 +348,10 @@ figure{
 	}
 	.header a{
 		justify-content: center;
-
+		height: 40px;
+		font-size: 2em;
+		text-decoration: underline;
+		margin-bottom: .5em;
 	}
 	.header .logo{
 		text-align: center;
@@ -378,6 +387,22 @@ figure{
 	}
 	.event img{
 		width: 100%;
+	}
+	.menu{
+		position: fixed;
+		background-color: rgba( 5, 111, 255, 0.9);
+		z-index: 3;
+		top: 0;
+		left: -100vw;
+		bottom: 0;
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: .3s;  
+	}
+	.menu.is-active{
+		left: 0;
 	}
 }
 @media screen and (max-width: 480px){
@@ -426,6 +451,3 @@ figure{
 		font-size: 1em;
 	}
 }
-gris claro 626262
-gris background 1b2127
-gris oscuro 1d252c
