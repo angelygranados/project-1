@@ -207,16 +207,16 @@ figure{
 	margin:0 10px;
 }
 .social-link.twitter{
-	background-image: url('twitter.svg');
+	background-image: url('images/twitter.svg');
 }
 .social-link.facebook{
-	background-image: url('facebook.svg');
+	background-image: url('images/facebook.svg');
 }
 .social-link.github{
-	background-image: url('github.svg');
+	background-image: url('images/github.svg');
 }
 .social-link.instagram{
-	background-image: url('instagram.svg');
+	background-image: url('images/instagram.svg');
 }
 .form-email input{
 	border-color:gray;
@@ -282,6 +282,11 @@ figure{
 	top: 5px;
 	color: white;
 }
+.html-video {
+	width: 100%;
+	height: auto;
+	/* max-width: 100%; */
+  }
 @media screen and (max-width: 1023px){
 	.event-list-title{
 		margin-left: 0;
@@ -294,6 +299,7 @@ figure{
 		height: auto;
 		position: relative;
 		padding: 2em;
+		overflow: hidden;
 	}
 	.hero-image{
 		position: absolute;
@@ -303,7 +309,7 @@ figure{
 		top: 0;
 		bottom: 0;
 		width: 100%;
-		overflow: hidden;
+		
 	}
 	h1{
 		z-index: 2;
@@ -315,10 +321,10 @@ figure{
 	.contact {
 		padding: 0 0 1em 0;
 	}
-	.html-video{
+	/*.html-video{
 		width: 100%;
 		height: auto;
-	}
+	}*/
 	.youtube-video {
 		/* width: 100%; */
 		/* height: auto; */
@@ -459,6 +465,6 @@ figure{
 		padding: 2em 1em;
 	}
 	h1 {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 }
