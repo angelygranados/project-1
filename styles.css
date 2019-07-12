@@ -283,6 +283,13 @@ figure{
 	color: white;
 }
 @media screen and (max-width: 1023px){
+	.event-list-title{
+		margin-left: 0;
+	}
+	.portfolio{
+		background-color: #fafafa;
+		padding: 0px;
+	}
 	.hero{
 		height: auto;
 		position: relative;
@@ -333,6 +340,10 @@ figure{
 	  }
 }
 @media screen and (max-width: 767px){
+	h2 {
+		font-size: 1.2em;
+		margin: .5em 0;
+	}
 	.burger-button{
 		display: block;
 	}
@@ -379,7 +390,7 @@ figure{
 		font-size: 1em;
 	}
 	.project-description{
-		font-size: .8em;
+		font-size: 1.1em;
 	}
 	.event{
 		width: auto;
@@ -414,7 +425,7 @@ figure{
 	}
 	.project-details{
 		width: auto;
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.event-detail{
 		margin: -2em .5em .5em;
