@@ -4,4 +4,4 @@ Landing para el proyecto del curso de desarrollo web de Platzi
 * Maquetación
 * Responsive design
 
-[Enlace al proyecto](https://project-1-dlgguh0pz.now.sh)
+[Enlace al proyecto](https://portafolio-project.now.sh/)
